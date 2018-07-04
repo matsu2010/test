@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+.main {
+	position: relative;
+	background-color:white;
+    opacity: 0.8;
+	width : 50%;
+	text-align : center;
+	margin : 0 auto 30px;
+	padding:20px;
+	border-radius:5% 5% 5% 5%;
+	height:750px;
+	border:10px ridge #FF9900 ;
+}
+
+.maincontainer{
+	margin:auto;
+}
+
+.title{
+	border-bottom:ridge 10px;
+	line-height:2;
+}
+
+input[type="submit"] {
+
+    margin : 20px 0px;
+}
+
+input[type="text"] { height: 1.8em; }
+
+.errorMsg{
+	color:red;
+	font-size:10px;
+	font-weight:bold;
+	text-align:left;
+}
+
+
+.user{
+	width:100%;
+	border-spacing:30px;
+	margin-left:40px;
+
+}
+
+.text{
+	width:20em;
+}
+
+th{
+	float:right;
+}
+
+td{
+	text-align:left;
+	padding-left:30px;
+}
+
+.btn{
+	margin-top:170px;
+	margin-left:37%;
+	text-align:center;
+}
+
+.square_btn{
+	font-size:30px;
+	color:white;
+	font-weight:bold;
+	width:270px;
+	height:65px;
+	position:relative;
+	bottom:60px;
+	margin-top:70px;
+}
+
+
+.userinform{
+	margin-left:30px;
+	padding-left:175px;
+}

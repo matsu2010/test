@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+.main {
+
+	background-color:white;
+    opacity: 0.8;
+	width : 55%;
+	text-align : center;
+	margin : 0 auto 30px;
+	height:500px;
+	border-radius: 30px;
+	padding:20px;
+	border:10px ridge #FF9900;
+}
+
+table{
+	width:80%;
+	margin:0 auto;
+	text-align:left;
+}
+.line{
+	background-color:#FFF0F5;
+	padding:10px;
+}
+
+.button{
+	margin:0 auto;
+	text-align:center;
+}
+
+.button form{
+	display:inline-block;
+	margin:20px 20px 0px;
+}
+
+.review-title{
+	text-align : center;
+	background-color:white;
+	height:auto;
+	width:40%;
+	background: rgba(255, 255, 255, 0.7);
+	margin:auto;
+
+
+
+}
+.reviewList{
+
+    opacity: 0.8;
+	width : 55%;
+	text-align : center;
+	margin : 0 auto 30px;
+	height:auto;
+	border-radius: 30px;
+	padding:20px;
+}
+.box {
+	width: 55%;
+	height: auto;
+
+	margin: 0 auto 40px auto;
+	padding: 10px;
+	text-align: left;
+	background-color: white;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius:20px;
+}
+
+.textarea rows{
+	width:350px;
+}
+.star-yellow{
+	color:#ffcc00;
+}
+.star-gray{
+	color:gray;
+}
+id{
+	margin:auto;
+}
+#more{
+	cursor:pointer;
+}

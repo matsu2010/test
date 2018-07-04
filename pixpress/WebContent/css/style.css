@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background:url(../images/background.jpg) center top no-repeat fixed;
+   color:black;
+   font-size:18px;
+   font-family:"Sawarabi Mincho", 'PT Serif', serif;
+
+
+
+}
+.maincontainer{
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	background: rgba(255,200,200,0.3);
+}
+.header{
+	width:100%;
+	height:130px;
+	padding:auto;
+	background:url(../images/backgrounds/header.jpg) center top no-repeat;
+}
+.footer{
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	clear:both;
+}
+
+/* 郢晏干ﾎ晉ｹ晢ｿｽ郢ｧ�ｽｦ郢晢ｽｳ */
+
+.styled-select {
+   height: 29px;
+   overflow: hidden;
+   width: 180px;
+   background-color: #666666;
+
+
+
+}
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+
+
+/* 郢晄�翫■郢晢ｽｳ */
+.square_btn {
+display: block;
+cursor: pointer;
+min-width:100px;
+width: auto;
+height: 50px;
+margin: 0 auto;
+padding: 20px;
+border-radius: 30px;
+color: #fff;
+text-align: center;
+line-height:10px;
+text-decoration: none;
+background-color: #CC3300;
+box-shadow: 1px 4px 1px 1px #020100, 0 8px 5px rgba(0,0,0,0.2);
+-webkit-transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, -webkit-transform 0.3s;
+transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+outline: none;
+}
+.square_btn:hover {
+background-color: #e08315;
+box-shadow:0 1px 0 0 #8e7314, 0 8px 5px rgba(0,0,0,0.2);
+-webkit-transform: translateY(3px);
+transform: translateY(3px);
+}
+.square_btn:active {
+color: #fff;
+background-color: #d4a21f;
+box-shadow: 0 0 0 #f1e8cb, 0 0 0px rgba(0,0,0,0.2);
+-webkit-transform: translateY(6px);
+transform: translateY(6px);
+transition-duration: 0.1s;
+outline: none;
+}

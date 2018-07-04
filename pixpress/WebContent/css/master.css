@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.main{
+	margin:0 auto;
+	width:80%;
+	min-height:500px;
+	height:auto;
+	background-color:whitesmoke;
+	padding:40px;
+	border-radius: 5%;
+	text-align: center;
+	background: rgba(255,255,255,0.8);
+	border:10px ridge #FF9900;
+}
+.yes_no{
+	margin:0 auto;
+}
+.addList{
+	margin: 0 auto;
+}
+.addList th{
+	float: left;
+}
+.addList td{
+	float: right;
+}
+.addList .errorMessage{
+	color:red;
+	font-size:13px;
+	float:right;
+}
+
+
+.addListConfirm{
+	margin: 0 auto;
+	width:60%;
+}
+.addListConfirm th{
+	float: left;
+}
+.addListConfirm td{
+	float: right;
+}
+.addListConfirm .errorMessage{
+	color:red;
+	font-size:13px;
+	float:right;
+}
+

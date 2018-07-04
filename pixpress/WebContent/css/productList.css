@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+.productList{
+	overflow:hidden;
+	height:33%;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.productList li{
+	float:left;
+	width:33%;
+	margin-bottom:10px;
+	text-align:center;
+}
+.productList a{
+	display:inline-block;
+	text-decoration:none;
+	font-size:20px;
+	margin:5px;
+	color:black;
+	position:relative;
+	outline: none;
+}
+.mask{
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	border-radius:5%;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.2s ease;
+	transition: all 0.2s ease;
+	color: white;
+
+}
+
+.productList a:hover .mask{
+	opacity:1;
+	padding-top: 30px;
+}
+.productList span{
+	font-size:10px;
+
+}
+
+.main{
+	margin:0 auto;
+	width:80%;
+	height:auto;
+	min-height: 600px;
+	/* background-color:whitesmoke; */
+	padding:40px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgba(255,255,255,0.8);
+	border:10px ridge #FF9900;
+	background-color: #ECECEC;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, #F9F9F9), color-stop(.5, transparent), to(transparent));
+	-webkit-background-size: 10px;
+}
+
+
+.left{
+	float:left;
+	width:50%;
+}
+.right{
+	float:right;
+	width:50%;
+}
+.center{
+	clear:both;
+}
+.details {
+	text-align: left;
+	min-width:100%;
+	min-height: 100%;
+}
+h2{
+	text-align : center;
+	background-color:white;
+	height:auto;
+	width:40%;
+	background: rgba(255, 255, 255, 0.7);
+	margin:50px auto;
+
+
+
+}
+.box {
+	width: 80%;
+	height: auto;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 0 auto 40px auto;
+	padding: 10px;
+	text-align: left;
+	background-color: white;
+	border-radius:20px;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.reviewList{
+	list-style: none;
+	border-top:solid 1px;
+	border-bottom: solid 1px;
+	margin: 2px;
+}
+.reviewList td{
+	text-align: left;
+}
+#more{
+	cursor: pointer;
+}
+.button{
+	display:inline-block;
+	border-radius:20px;
+	font-size:0.8vw;
+	text-align:center;
+	cursor:pointer;
+	padding:7px 5px;
+	background:gray;
+	color:white;
+	line-height:1em;
+	transition:.3s;
+	box-shadow:6px 3xp 3px #777777;
+	border: 1px onset black;
+}
+.button:hover{
+	box-shadow:none;
+	background:#666666;
+}
+
+
+.star-yellow{
+	color:#ffcc00;
+}
+.star-gray{
+	color:gray;
+}
